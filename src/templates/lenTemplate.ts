@@ -32,9 +32,9 @@ export function getLastComponent (input: string): string {
       return lastComponent
     }
     
-    if (character === ')' /* || character === ']' */){
+    if (character === ')' || character === ']'){
       x++
-    }else if (character === '(' /* || character === '[' */){
+    }else if (character === '(' || character === '['){
       x--
       if (x<0){
         return lastComponent

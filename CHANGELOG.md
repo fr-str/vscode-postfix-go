@@ -36,3 +36,6 @@
 
 ## [0.0.17] - 2022-09-07
 - Improve 'getLastComponent'
+
+## [0.0.18] - 2022-11-03
+- bug fix, forgot to uncomment lol
